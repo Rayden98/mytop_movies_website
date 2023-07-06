@@ -7,10 +7,10 @@ from wtforms.validators import DataRequired
 import requests
 import json
 
-my_api = "179b3c2fe3e5a904712a46090a4e44a5"
+my_api = ""
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = ''
 Bootstrap5(app)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///new_movies_collection.db"
